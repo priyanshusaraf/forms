@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script>
+            function handlesubmit(e){
+                e.preventDefault()
+            }
+    </script>
+</head>
+<body>
+    <form class="login" action="file:///Users/priyanshusaraf/Desktop/forms/index.html" method="POST">
+        <input type="email" class="input_fields" placeholder="email" required>
+        <input type="password" class="input_fields" placeholder="password" required>
+        <input type="password" class="input_fields" placeholder="password" required>
+        <button type="submit" class="submit_button" onclick="handlesubmit(e)">Submit</button>
+    </form>
+</body>
+</html>
